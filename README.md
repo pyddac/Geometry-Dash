@@ -1,2 +1,2 @@
 # Geometry-Dash
-GD menu mad with HTML, CSS, JavaScript, helper: Gemini.
+GD menu made with HTML, CSS, JavaScript, helper: Gemini.
