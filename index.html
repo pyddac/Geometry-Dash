@@ -50,6 +50,19 @@
         text-shadow: 1px 1px 2px #000000; /* Thêm bóng đổ để nổi bật hơn */
     }
     </style>
+         <audio id="audioGame" loop>
+        <source src="nhac_nen.mp3.mp3" type="audio/mpeg">
+    </audio>
+
+    <button onclick="playMusic()">START GAME</button>
+
+    <script>
+        function playMusic() {
+            var music = document.getElementById("audioGame");
+            music.play();
+            alert("Đang phát Thermodynamix - dj-Nate!");
+        }
+    </script>
 </body>
 </html>
 
